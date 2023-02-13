@@ -11,7 +11,7 @@
     --purple: #7971ea;
     --pink: #e83e8c;
     --red: #f23a2e;
-    --orange: #ff5733;
+    --orange: #FF5757;
     --yellow: #f89d13;
     --green: #8bc34a;
     --teal: #20c997;
@@ -19,7 +19,7 @@
     --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
-    --primary: #ff5733;
+    --primary: #FF5757;
     --secondary: #6c757d;
     --success: #8bc34a;
     --info: #17a2b8;
@@ -136,7 +136,7 @@ sup {
 }
 
 a {
-    color: #ff5733;
+    color: #FF5757;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
@@ -729,8 +729,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #ff5733;
-    border-color: #ff5733
+    background-color: #FF5757;
+    border-color: #FF5757
 }
 
 .btn-primary:hover {
@@ -748,8 +748,8 @@ fieldset:disabled a.btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    background-color: #ff5733;
-    border-color: #ff5733
+    background-color: #FF5757;
+    border-color: #FF5757
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
@@ -1021,7 +1021,7 @@ fieldset:disabled a.btn {
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #ff5733
+    background-color: #FF5757
 }
 
 .dropdown-item.disabled,
@@ -1243,8 +1243,8 @@ fieldset:disabled a.btn {
 .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #ff5733;
-    border-color: #ff5733
+    background-color: #FF5757;
+    border-color: #FF5757
 }
 
 .close {
@@ -1636,7 +1636,7 @@ button.close {
 }
 
 .border-primary {
-    border-color: #ff5733 !important
+    border-color: #FF5757 !important
 }
 
 .border-secondary {
@@ -1863,7 +1863,7 @@ button.close {
 }
 
 .text-primary {
-    color: #ff5733 !important
+    color: #FF5757 !important
 }
 
 a.text-primary:focus,
