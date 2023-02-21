@@ -407,6 +407,12 @@ a>code {
     }
 }
 
+@media (max-width:1200px) {
+    .img-fluid {
+        width: 250px;
+    }
+}
+
 @media (min-width:1200px) {
     .container {
         max-width: 1140px

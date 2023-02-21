@@ -1,188 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <title>Contact us | The Boring Workshops</title>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto+Mono"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="fonts/icomoon/style.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/magnific-popup.css" />
+        <link rel="stylesheet" href="css/jquery-ui.css" />
+        <link rel="stylesheet" href="css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+        <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+        <link rel="stylesheet" href="css/aos.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
 
-<head>
-  <title>Workshop &mdash; Colorlib Website Template</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  <link rel="stylesheet" href="css/jquery-ui.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-  <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script
-    nonce="af1a94c3-297c-4913-9e0d-0b50cb48a9bf">(function (w, d) { !function (f, g, h, i) { f[h] = f[h] || {}; f[h].executed = []; f.zaraz = { deferred: [], listeners: [] }; f.zaraz.q = []; f.zaraz._f = function (j) { return function () { var k = Array.prototype.slice.call(arguments); f.zaraz.q.push({ m: j, a: k }) } }; for (const l of ["track", "set", "debug"]) f.zaraz[l] = f.zaraz._f(l); f.zaraz.init = () => { var m = g.getElementsByTagName(i)[0], n = g.createElement(i), o = g.getElementsByTagName("title")[0]; o && (f[h].t = g.getElementsByTagName("title")[0].text); f[h].x = Math.random(); f[h].w = f.screen.width; f[h].h = f.screen.height; f[h].j = f.innerHeight; f[h].e = f.innerWidth; f[h].l = f.location.href; f[h].r = g.referrer; f[h].k = f.screen.colorDepth; f[h].n = g.characterSet; f[h].o = (new Date).getTimezoneOffset(); if (f.dataLayer) for (const s of Object.entries(Object.entries(dataLayer).reduce(((t, u) => ({ ...t[1], ...u[1] }))))) zaraz.set(s[0], s[1], { scope: "page" }); f[h].q = []; for (; f.zaraz.q.length;) { const v = f.zaraz.q.shift(); f[h].q.push(v) } n.defer = !0; for (const w of [localStorage, sessionStorage]) Object.keys(w || {}).filter((y => y.startsWith("_zaraz_"))).forEach((x => { try { f[h]["z_" + x.slice(7)] = JSON.parse(w.getItem(x)) } catch { f[h]["z_" + x.slice(7)] = w.getItem(x) } })); n.referrerPolicy = "origin"; n.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(f[h]))); m.parentNode.insertBefore(n, m) };["complete", "interactive"].includes(g.readyState) ? zaraz.init() : f.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
-</head>
-
-<body>
-  <div class="site-wrap">
-    <div class="site-mobile-menu">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-    <header class="site-navbar py-3" role="banner">
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col-11 col-xl-2">
-            <h1 class="mb-0">
-              <a href="index.html" class="text-white h4 mb-0"><img src="images/logo_web.png" alt="Image"
-                  class="img-fluid" />
-              </a>
-            </h1>
-          </div>
-          <div class="col-12 col-md-10 d-none d-xl-block">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="instructors.html">Instructors</a></li>
-                <li><a href="workshops.html">Workshops</a></li>
-                <li><a href="contact.html">Contact us</a></li>
-                <li class="cta">
-                  <a href="buy-tickets.html">Register Workshop @ 199₹</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px">
-            <a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a>
-          </div>
-        </div>
-      </div>
-    </header>
-    <div class="site-section site-hero inner">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-10">
-            <span class="d-block mb-3 caption" data-aos="fade-up">Get In Touch</span>
-            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Contact Us</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="site-section">
-      <div class="container">
-        <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
-          <div class="p-4">
-            <p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Phone</p>
-            <p class="mb-4"><a href="tel: +91 8072937581">+91 8072937581</a></p>
-            <p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Email Address</p>
-            <p class="mb-0"><a href="mailto: theboringeducation@gmail.com"><span class="__cf_email__">theboringeducation@gmail.com</span></a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="site-section" data-aos="fade">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-lg-4 mb-5">
-            <div class="site-section-heading">
-              <h2 class="text-center">Testimonials</h2>
+    <body>
+        <div class="site-wrap">
+            <div class="site-mobile-menu">
+                <div class="site-mobile-menu-header">
+                    <div class="site-mobile-menu-close mt-3">
+                        <span class="icon-close2 js-menu-toggle"></span>
+                    </div>
+                </div>
+                <div class="site-mobile-menu-body"></div>
             </div>
-          </div>
-        </div>
-        <div class="slide-one-item home-slider owl-carousel">
-          <div class="row justify-content-center">
-            <div class="testimony text-center col-md-5">
-              <figure>
-                <img src="images/testimonial-1.webp" alt="Image" class="img-fluid">
-              </figure>
-              <blockquote>
-                <p>&ldquo;Improved design skills by attending in The Boring workshop, I leant about Figma from scratch
-                  and basics for designing mobile applications.
-                  I learnt how figma works, how to create screens and how to connect two screens and learn techniques,
-                  get hands on experience and I apply what I learned to the projects.
-                  the workshop helps me in introducing design concepts.
-                  &rdquo;</p>
-                <p class="author">Satish Daraboina</p>
-              </blockquote>
+            <header class="site-navbar py-3" role="banner">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-11 col-xl-2">
+                            <h1 class="mb-0">
+                                <a href="index.html" class="text-white h4 mb-0"
+                                    ><img
+                                        src="images/logo_web.png"
+                                        alt="Image"
+                                        class="img-fluid"
+                                    />
+                                </a>
+                            </h1>
+                        </div>
+                        <div class="col-12 col-md-10 d-none d-xl-block">
+                            <nav
+                                class="site-navigation position-relative text-right"
+                                role="navigation"
+                            >
+                                <ul
+                                    class="site-menu js-clone-nav mx-auto d-none d-lg-block"
+                                >
+                                    <li class="active"
+                                        ><a href="index.html">Home</a></li
+                                    >
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li
+                                        ><a href="instructors.html"
+                                            >Instructors</a
+                                        ></li
+                                    >
+                                    <li
+                                        ><a href="workshops.html"
+                                            >Workshops</a
+                                        ></li
+                                    >
+                                    <li
+                                        ><a href="contact.html"
+                                            >Contact us</a
+                                        ></li
+                                    >
+                                    <li class="cta">
+                                        <a href="buy-tickets.html"
+                                            >Register Workshop @ 199₹</a
+                                        >
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div
+                            class="d-inline-block d-xl-none ml-md-0 mr-auto py-3"
+                            style="position: relative; top: 3px"
+                        >
+                            <a
+                                href="#"
+                                class="site-menu-toggle js-menu-toggle text-white"
+                                ><span class="icon-menu h3"></span
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="site-section site-hero inner">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-10">
+                            <span
+                                class="d-block mb-3 caption"
+                                data-aos="fade-up"
+                                >Get In Touch</span
+                            >
+                            <h1
+                                class="d-block mb-4"
+                                data-aos="fade-up"
+                                data-aos-delay="100"
+                                >Contact Us</h1
+                            >
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="testimony text-center col-md-5">
-              <figure>
-                <img src="images/testimonial-2.webp" alt="Image" class="img-fluid">
-              </figure>
-              <blockquote>
-                <p>&ldquo;Boring workshop helps me a lot to learn UI designing in a very easy and intellectual manner
-                  and the most important thing is that each and every concept is explained easily. in workshop they
-                  explain very complex things easily&rdquo;</p>
-                <p class="author">Nikhil Maurya</p>
-              </blockquote>
+            <div class="site-section">
+                <div class="container">
+                    <div
+                        class="col-md-12"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                    >
+                        <div class="p-4">
+                            <p
+                                class="mb-0 font-weight-bold text-secondary text-uppercase mb-3"
+                                >Phone</p
+                            >
+                            <p class="mb-4"
+                                ><a href="tel: +91 8072937581"
+                                    >+91 8072937581</a
+                                ></p
+                            >
+                            <p
+                                class="mb-0 font-weight-bold text-secondary text-uppercase mb-3"
+                                >Email Address</p
+                            >
+                            <p class="mb-0"
+                                ><a href="mailto: theboringeducation@gmail.com"
+                                    ><span class="__cf_email__"
+                                        >theboringeducation@gmail.com</span
+                                    ></a
+                                ></p
+                            >
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <footer class="site-footer">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-md-4">
+                            <h2 class="footer-heading text-uppercase mb-4"
+                                >The Boring Workshop</h2
+                            >
+                            <p>
+                                The Boring Workshop is an initiative by The
+                                Boring Education to help students and
+                                professional upskill in Design, Web & App
+                                Development that helps them in their career.
+                            </p>
+                        </div>
+                        <div class="col-md-3 ml-auto">
+                            <h2 class="footer-heading text-uppercase mb-4"
+                                >Quick Links</h2
+                            >
+                            <ul class="list-unstyled">
+                                <li><a href="about.html">About Us</a></li>
+                                <li
+                                    ><a href="instructors.html"
+                                        >Instructors</a
+                                    ></li
+                                >
+                                <li><a href="workshops.html">Workshops</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h2 class="footer-heading text-uppercase mb-4">
+                                Connect with Us
+                            </h2>
+                            <p>
+                                <a href="#" class="p-2 pl-0 d-none"
+                                    ><span class="icon-facebook"></span
+                                ></a>
+                                <a href="#" class="p-2 pl-0 d-none"
+                                    ><span class="icon-facebook"></span
+                                ></a>
+                                <a href="#" class="p-2 d-none"
+                                    ><span class="icon-youtube"></span
+                                ></a>
+                                <a
+                                    href="https://www.instagram.com/theboringeducation/"
+                                    class="p-2"
+                                    target="_blank"
+                                    ><span class="icon-instagram"></span
+                                ></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
-      </div>
-    </div>
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-4">
-            <h2 class="footer-heading text-uppercase mb-4">The Boring Workshop</h2>
-            <p>
-              The Boring Workshop is an initiative by The Boring Education to help students and professional upskill in
-              Design, Web & App Development that helps them in their career.
-            </p>
-          </div>
-          <div class="col-md-3 ml-auto">
-            <h2 class="footer-heading text-uppercase mb-4">Quick Links</h2>
-            <ul class="list-unstyled">
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="instructors.html">Instructors</a></li>
-              <li><a href="workshops.html">Workshops</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h2 class="footer-heading text-uppercase mb-4">
-              Connect with Us
-            </h2>
-            <p>
-              <a href="#" class="p-2 pl-0"><span class="icon-facebook"></span></a>
-              <a href="#" class="p-2"><span class="icon-twitter"></span></a>
-              <a href="#" class="p-2"><span class="icon-youtube"></span></a>
-              <a href="#" class="p-2"><span class="icon-instagram"></span></a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </div>
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/bootstrap-datepicker.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/main.js"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/jquery-migrate-3.0.1.min.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/bootstrap-datepicker.min.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/main.js"></script>
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
 
-    gtag('config', 'UA-23581568-13');
-  </script>
-  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993"
-    integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA=="
-    data-cf-beacon='{"rayId":"79426a9f5c764dad","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.3","si":100}'
-    crossorigin="anonymous"></script>
-</body>
-
+            gtag('config', 'UA-23581568-13');
+        </script>
+        <script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993"
+            integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA=="
+            data-cf-beacon='{"rayId":"79426a9f5c764dad","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.3","si":100}'
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
