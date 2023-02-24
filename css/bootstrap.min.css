@@ -488,36 +488,42 @@ a>code {
         flex: 0 0 25%;
         max-width: 25%
     }
+
     .col-md-4 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 33.33333%;
         flex: 0 0 33.33333%;
         max-width: 33.33333%
     }
+
     .col-md-5 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 41.66667%;
         flex: 0 0 41.66667%;
         max-width: 41.66667%
     }
+
     .col-md-6 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%
     }
+
     .col-md-9 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 75%;
         flex: 0 0 75%;
         max-width: 75%
     }
+
     .col-md-10 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 83.33333%;
         flex: 0 0 83.33333%;
         max-width: 83.33333%
     }
+
     .col-md-12 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
@@ -533,23 +539,27 @@ a>code {
         flex: 0 0 33.33333%;
         max-width: 33.33333%
     }
+
     .col-lg-5 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 41.66667%;
         flex: 0 0 41.66667%;
         max-width: 41.66667%
     }
+
     .col-lg-6 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%
     }
+
     .order-lg-1 {
         -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
         order: 1
     }
+
     .order-lg-2 {
         -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
@@ -1177,6 +1187,7 @@ fieldset:disabled a.btn {
     0% {
         background-position: 1rem 0
     }
+
     to {
         background-position: 0 0
     }
@@ -1513,6 +1524,7 @@ button.close {
 }
 
 @media screen and (prefers-reduced-motion:reduce) {
+
     .carousel-item-next,
     .carousel-item-prev,
     .carousel-item.active {
@@ -1536,6 +1548,7 @@ button.close {
 }
 
 @supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+
     .carousel-item-next.carousel-item-left,
     .carousel-item-prev.carousel-item-right {
         -webkit-transform: translate3d(0, 0, 0);
@@ -1551,6 +1564,7 @@ button.close {
 }
 
 @supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+
     .active.carousel-item-right,
     .carousel-item-next {
         -webkit-transform: translate3d(100%, 0, 0);
@@ -1566,6 +1580,7 @@ button.close {
 }
 
 @supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+
     .active.carousel-item-left,
     .carousel-item-prev {
         -webkit-transform: translate3d(-100%, 0, 0);
@@ -1677,6 +1692,7 @@ button.close {
     .d-xl-none {
         display: none !important
     }
+
     .d-xl-block {
         display: block !important
     }
@@ -1828,6 +1844,7 @@ button.close {
     .mb-md-0 {
         margin-bottom: 0 !important
     }
+
     .ml-md-0 {
         margin-left: 0 !important
     }
@@ -1837,14 +1854,17 @@ button.close {
     .mb-lg-0 {
         margin-bottom: 0 !important
     }
+
     .mb-lg-5 {
         margin-bottom: 3rem !important
     }
+
     .pr-lg-5 {
         padding-right: 3rem !important
     }
+
     .pl-lg-5 {
-        padding-left: 3rem !important
+        /* padding-left: 3rem !important */
     }
 }
 
@@ -1900,45 +1920,57 @@ a.text-secondary:hover {
         -webkit-box-shadow: none !important;
         box-shadow: none !important
     }
+
     a:not(.btn) {
         text-decoration: underline
     }
+
     blockquote {
         border: 1px solid #adb5bd;
         page-break-inside: avoid
     }
+
     thead {
         display: table-header-group
     }
+
     img,
     tr {
         page-break-inside: avoid
     }
+
     h2,
     h3,
     p {
         orphans: 3;
         widows: 3
     }
+
     h2,
     h3 {
         page-break-after: avoid
     }
+
     @page {
         size: a3
     }
+
     body {
         min-width: 992px !important
     }
+
     .container {
         min-width: 992px !important
     }
+
     .navbar {
         display: none
     }
+
     .table {
         border-collapse: collapse !important
     }
+
     .table td,
     .table th {
         background-color: #fff !important
