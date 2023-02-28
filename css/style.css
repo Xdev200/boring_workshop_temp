@@ -659,7 +659,13 @@ h4,
 
 @media (min-width: 992px) {
     .site-hero h1 {
-        font-size: 5rem;
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 600px) {
+    .site-hero h1 {
+        font-size: 3rem;
     }
 }
 
@@ -679,7 +685,7 @@ h4,
     background: #3f4046;
     padding: 16px 30px;
     display: inline-block;
-    letter-spacing: .2em;
+    letter-spacing: 1px;
     position: relative;
 }
 
