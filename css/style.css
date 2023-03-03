@@ -960,3 +960,7 @@ h4,
         padding: 8rem 0;
     }
 }
+
+.project-fluid {
+    width: 100%;
+}
