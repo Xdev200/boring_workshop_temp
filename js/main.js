@@ -265,7 +265,11 @@ jQuery(document).ready(function ($) {
         }
 
         if (succeed) {
-            $(".copied").css({ display: "block" })
+            $("#copy-upi").html("COPIED")
+
+            setTimeout(() => {
+                $("#copy-upi").html("COPY")
+            }, 5000)
         }
 
         return succeed
